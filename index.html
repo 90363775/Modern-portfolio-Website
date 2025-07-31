@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Farhan Syed</span></h1>
+            <h2 class="hero-subtitle">
+                <span data-text="Full Stack Developer" style="--i:4">Full Stack Developer</span>
+                <span data-text="AI & ML Enthusiast" style="--i:3">AI & ML Enthusiast</span>
+                <span data-text="Web Developer" style="--i:2">Web Developer</span>
+                <span data-text="Machine Learning Engineer" style="--i:1">Machine Learning Engineer</span>
+            </h2>
+            <p class="hero-description">
+                I'm a passionate developer with expertise in creating modern web applications and machine learning solutions.
+                With experience in both frontend, backend development, and AI/ML technologies, I bring ideas to life through clean code,
+                innovative solutions, and intelligent algorithms.
+            </p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="syed_farhan(2).pdf" class="btn btn-download" download>Download CV</a>
+            </div>
+            <div class="social-section">
+                <p class="follow-text">Follow me on</p>
+                <div class="social-links">
+                    <a href="https://github.com/90363775" class="social-link" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/syed-farhaan-245739259" class="social-link" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://www.instagram.com/farhaansyed34/" class="social-link" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <img src="syed_farhan.jpg" alt="Farhan Syed" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer with expertise in creating modern web applications and machine learning solutions. With experience in both frontend, backend development, and AI/ML technologies, I bring ideas to life through clean code, innovative solutions, and intelligent algorithms.</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>20+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>3+</h3>
+                        <p>Freelance Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and modern websites using the latest technologies and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Mobile Apps</h3>
+                    <p>Developing cross-platform mobile applications with React Native and Flutter.</p>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-brain'></i>
+                    <h3>ML Projects</h3>
+                    <p>Developing intelligent machine learning solutions for data analysis, prediction,
+                         and automation using advanced algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class='bx bx-shield-check'></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Malware Detection System using ML</h3>
+                        <p>An intelligent security system that uses machine learning algorithms to detect,
+                             and classify malicious software with high accuracy</p>
+                        <div class="portfolio-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Scikit-learn</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <a href="https://github.com/90363775/malware-detection-using-ML" class="portfolio-link" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class='bx bx-mobile-alt'></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>AI Agent- Jarvis</h3>
+                        <p>An intelligent AI assistant that automates daily tasks, manages schedules,
+                             and provides smart recommendations using natural language processing</p>
+                        <div class="portfolio-tags">
+                            <span>Python</span>
+                            <span>OpenAI API</span>
+                            <span>Live Kit Server</span>
+                            <span>Natural Language Processing</span>
+                        </div>
+                        <a href="#" class="portfolio-link" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class='bx bx-world'></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Eye-Controlled Mouse</h3>
+                        <p>Eye Controlled Mouse: Navigate your computer using just your eyes with advanced computer vision.
+                            A modern, accessible solution with smooth animations and responsive design.</p>
+                        <div class="portfolio-tags">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                            <span>PyAutoGUI</span>
+                            <span>Tkinter</span>
+                        </div>
+                        <a href="https://github.com/90363775/Eye-Controlled-Mouse" class="portfolio-link" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class='bx bx-envelope'></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>farhaansyed@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-phone'></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>9380278837</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-map'></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Mysore, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 @Syed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
